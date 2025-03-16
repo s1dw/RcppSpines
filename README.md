@@ -12,7 +12,7 @@
 事先安裝Xcode套件   
 
 - **For Ｗindow User:**  
-事先安裝Xcode套件 devtools
+事先安裝devtools
 ```r
 if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
 ```
@@ -40,6 +40,6 @@ for (i in 1:dim(X)[2]) {
 }
 abline(v = knots, col = 4, lty = 3)
 ```
-<img src="img/bspline.png" alt="B-spline basis" width="400">
+<img src="img/bspline.png" alt="B-spline basis" width="800">
 
 
