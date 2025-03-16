@@ -27,8 +27,8 @@ library(RcppSplines)
 ### 生成 spline basis fuction
 ```r
 ### B-spline 
-t = seq(0.1, 10, 0.1)
 order = 50
+t = seq(0.1, 10, 0.1)
 knots = c(rep(min(t) - 1e-3, order), 2, 5, 7, rep(max(t) + 1e-3, order))
 X = bSpline(p = order, k = knots, x = t)
 
@@ -40,4 +40,6 @@ for (i in 1:dim(X)[2]) {
 }
 abline(v = knots, col = 4, lty = 3)
 ```
+<img src="img/bspline.png" alt="B-spline basis" width="400">
+
 
