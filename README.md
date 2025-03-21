@@ -11,7 +11,7 @@
 - **For MacOS User:**  
 事先安裝Xcode套件   
 
-- **For Ｗindow User:**  
+- **For Window User:**  
 事先安裝devtools
 ```r
 if (!requireNamespace("devtools", quietly = TRUE)) install.packages("devtools")
